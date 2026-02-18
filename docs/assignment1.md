@@ -1,4 +1,4 @@
-# Week 1 – Overview of Project
+# Overview of Project
 
 ## Group Project: Toronto Cupcake – UX Website Redesign
 

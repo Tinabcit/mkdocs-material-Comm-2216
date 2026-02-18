@@ -1,4 +1,4 @@
-# Week 4 – UX Problem Statement and Scope
+# UX Problem Statement and Scope
 
 ## UX Problem Statement
 
