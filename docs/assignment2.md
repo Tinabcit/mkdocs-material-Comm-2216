@@ -9,13 +9,13 @@
 
 ## Purpose
 
--This proposal evaluates the Toronto Cupcake website using Norman’s heuristic principles to identify usability, design, and interaction issues that negatively affect the overall user experience. The primary goal is to improve usability, trust, and visual appeal, particularly for customers purchasing cupcakes or corporate catering services.
+This proposal evaluates the Toronto Cupcake website using Norman’s heuristic principles to identify usability, design, and interaction issues that negatively affect the overall user experience. The primary goal is to improve usability, trust, and visual appeal, particularly for customers purchasing cupcakes or corporate catering services.
 
 ## Issues with the Site
 
 ### Navigation
 
--The website’s navigation is confusing and poorly structured, especially for first-time users. Primary actions such as **Shop**, **Cart**, and **Ordering** are not immediately visible, creating friction early in the user journey. The vertical dropdown navigation feels outdated and inconsistent with modern e-commerce conventions. In addition, the lack of consistency across pages makes users unsure of their location within the site. Navigation also does not scale effectively across different screen sizes, reducing flexibility and efficiency of use.
+The website’s navigation is confusing and poorly structured, especially for first-time users. Primary actions such as **Shop**, **Cart**, and **Ordering** are not immediately visible, creating friction early in the user journey. The vertical dropdown navigation feels outdated and inconsistent with modern e-commerce conventions. In addition, the lack of consistency across pages makes users unsure of their location within the site. Navigation also does not scale effectively across different screen sizes, reducing flexibility and efficiency of use.
 
 **Norman Principle Impact – Navigation:**  
 Navigation issues violate **Consistency and Standards**, as the layout does not follow common web conventions. **User Control and Freedom** are also affected because users struggle to move easily between pages.
