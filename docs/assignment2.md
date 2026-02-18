@@ -1,4 +1,4 @@
-# Norman Heuristic – Proposal & UX/UI 🌟
+# Norman Heuristic – Proposal & UX/UI 📗
 
 ## Norman Heuristic Laws Applied
 
