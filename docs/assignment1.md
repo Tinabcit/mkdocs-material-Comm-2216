@@ -1,12 +1,12 @@
 # Overview of Project
 
-## Group Project: Toronto Cupcake – UX Website Redesign
+## Group Project: Toronto Cupcake-UX Website Redesign
 
 ## Website Chosen
 
 Although I am not enrolled in ACIT 2811, I am grouped with Anna and Ava, who are taking the course. Our team selected Toronto Cupcake as the website for our UX redesign project.
 
-Toronto Cupcake is a well-established business that specializes in gourmet cupcakes for holidays, corporate events, weddings, and large celebrations. The company has strong brand recognition and a clear product offering; however, the current website does not reflect the quality of the brand. The existing design feels outdated and cluttered, making it difficult for users to navigate the site, find products, and complete purchases efficiently. This made Toronto Cupcake an ideal candidate for a UX-focused redesign.
+Toronto Cupcake is a well-established business that specializes in gourmet cupcakes for holidays, corporate events, weddings, and large celebrations. The company has strong brand recognition and a clear product offering; however, the current website does not reflect the quality of the brand. The existing design feels outdated and cluttered, making it difficult for users to navigate the site, find products, and complete purchases efficiently. This made Toronto Cupcake an ideal candidate for a UX focused redesign.
 
 ## Why We Chose This Topic
 
@@ -32,13 +32,13 @@ As a team, we identified several major UX and UI issues and focused on the follo
 
 ### Visual Hierarchy
 
-- Headings, images, and calls-to-action compete for attention
+- Headings, images, and calls to action compete for attention
 - Improvements will be made through consistent typography, spacing, and layout
 
 ### Shop and Cart Experience
 
 - Current imagery does not support the “gourmet” positioning of the brand
-- Higher-quality visuals and consistent branding will create a more premium feel
+- Higher quality visuals and consistent branding will create a more premium feel
 
 ### Content Organization
 
@@ -52,7 +52,7 @@ While working collaboratively with the team, my individual focus has been on vis
 - Conducting a visual design critique of the existing website
 - Identifying layout issues such as inconsistent spacing, alignment problems, and cluttered sections
 - Analyzing misalignment between the design and target audience expectations
-- Providing UX-focused recommendations to improve clarity, usability, and flow
+- Providing UX focused recommendations to improve clarity, usability, and flow
 - Suggesting accessibility and readability improvements without altering brand identity
 
 ## What I Hope to Gain From This Class

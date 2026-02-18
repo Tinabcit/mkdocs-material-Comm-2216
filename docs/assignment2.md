@@ -70,7 +70,7 @@ The website should be rebranded to better reflect a niche gourmet market. The de
 
 The cart should be accessible at all times through a persistent cart icon. Clear feedback should be provided when items are added or removed. The checkout flow should be simplified to reduce friction.
 
-**Norman Principle View – Shop / Cart:**  
+**Norman Principle View - Shop / Cart:**  
 Improved checkout supports **User Control and Freedom**, helping users feel confident and informed.
 
 ### Catalogue Improvements
