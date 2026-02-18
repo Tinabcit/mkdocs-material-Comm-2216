@@ -1,4 +1,4 @@
-# Content Tabs
+# Content Tabs ⭐
 
 Welcome to the Content Tabs page. This project will have the following pages:
 

@@ -1,4 +1,4 @@
-# Website User Stories and User Personas
+# Website User Stories and User Personas 🌟
 
 Although I am not enrolled in **ACIT 2811**, I learned about **User Personas** and **User Stories** through my Agile course with Tomoko. Using this knowledge, I applied a user-centered design approach to analyze the Toronto Cupcake website. The following user scenarios represent realistic users with clear goals, expectations, and behaviors related to wedding planning and event catering.
 
