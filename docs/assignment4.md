@@ -8,6 +8,9 @@ From a Norman heuristic perspective, the website violates several key usability 
 
 The website should be redesigned as soon as possible to restore credibility, improve usability, and better support customer decision-making. The redesign should place a strong emphasis on **corporate customers**, as corporate catering is a niche service that can help Toronto Cupcake stand out among competitors. A refined and professional experience would better support large orders, time-sensitive planning, and repeat business.
 
+!!! info "Purpose of Problem Statement"
+    A UX problem statement clearly defines the core usability issues and helps guide design decisions toward user-centered solutions.
+
 ## The Five Ws
 
 **Who**  
@@ -24,6 +27,9 @@ As soon as possible, due to the current negative impact on usability, trust, and
 
 **Why**  
 The website fails to appeal to its audiences due to poor design, unclear navigation, and hidden or inconsistent information, which violates Norman’s usability principles and reduces user confidence.
+
+!!! warning "Impact of Poor UX"
+    Unclear navigation, cluttered content, and missing information can negatively affect user satisfaction, trust, and conversion rates.
 
 ## Project Scope (Mapped to Norman Heuristics)
 

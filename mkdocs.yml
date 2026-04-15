@@ -41,3 +41,15 @@ markdown_extensions:
 
   - admonition
   - pymdownx.details
+nav:
+  - Home: index.md
+  - Content Tabs: content.md
+  - Overview of Project: assignment1.md
+  - Normal Heuristic: assignment2.md
+  - User Stories: assignment3.md
+  - UX Problem: assignment4.md
+  - Wireframes: assignment5.md
+  - low-Fi Prototypes: assignment6.md
+  - Hifi Prototypes: assignment7.md
+  - Usability Testing & Findings: assignment8.md
+  - Colour and Typography – Toronto Cupcake: assignment9.md

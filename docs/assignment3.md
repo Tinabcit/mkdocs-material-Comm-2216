@@ -2,7 +2,13 @@
 
 Although I am not enrolled in **ACIT 2811**, I learned about **User Personas** and **User Stories** through my Agile course with Tomoko. Using this knowledge, I applied a user-centered design approach to analyze the Toronto Cupcake website. The following user scenarios represent realistic users with clear goals, expectations, and behaviors related to wedding planning and event catering.
 
+!!! info "Why User Stories Matter"
+    User stories represent real user needs and help designers understand how different users interact with a website in realistic scenarios.
+
 These scenarios help identify usability issues, navigation gaps, and opportunities to improve efficiency, clarity, and overall user experience.
+
+!!! warning "UX Insight"
+    If users cannot quickly find information such as allergens or delivery details, they may abandon the website and choose a competitor.
 
 ## User Scenario 1 (User Story 1)
 

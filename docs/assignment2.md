@@ -11,9 +11,17 @@
 
 This proposal evaluates the Toronto Cupcake website using Norman’s heuristic principles to identify usability, design, and interaction issues that negatively affect the overall user experience. The primary goal is to improve usability, trust, and visual appeal, particularly for customers purchasing cupcakes or corporate catering services.
 
+!!! info "About Norman Heuristics"
+    Norman’s usability principles help identify common design problems related to navigation, consistency, and user control. These principles are widely used in UX evaluation.
+
+!!! warning "Usability Risk"
+    Violating usability principles such as consistency and visibility can lead to user confusion, frustration, and reduced trust in the website.
+
 ## Issues with the Site
 
 ### Navigation
+
+![Navigation Issue](img-assignment02/navigation-problem.png)
 
 The website’s navigation is confusing and poorly structured, especially for first-time users. Primary actions such as **Shop**, **Cart**, and **Ordering** are not immediately visible, creating friction early in the user journey. The vertical dropdown navigation feels outdated and inconsistent with modern e-commerce conventions. In addition, the lack of consistency across pages makes users unsure of their location within the site. Navigation also does not scale effectively across different screen sizes, reducing flexibility and efficiency of use.
 
@@ -22,12 +30,16 @@ Navigation issues violate **Consistency and Standards**, as the layout does not 
 
 ### Shop / Catalogue
 
+![Catalogue Layout Issue](img-assignment02/catalogue-problem.png)
+
 The shopping cart is difficult to locate and is not persistently visible, disrupting the purchasing process. The catalogue lacks a clear visual hierarchy, making it difficult for users to quickly scan products. Product images are inconsistent in size and sometimes stretched, which reduces perceived quality. Pricing information is not always clearly displayed, increasing uncertainty during purchasing decisions.
 
 **Norman Principle Impact – Shop / Catalogue:**  
 These issues impact **Visibility of System Information**, as users cannot easily view product details and pricing. **Flexibility and Efficiency of Use** are reduced because browsing and purchasing require unnecessary effort.
 
 ### Design
+
+![Design Clutter Example](img-assignment02/design-clutter.png)
 
 The overall design appears outdated and unprofessional and does not reflect a gourmet or premium cupcake brand. Inconsistent spacing, padding, and alignment create a disjointed visual experience. Typography choices reduce readability and cause visual strain. Pages are overly text-heavy and include unnecessary information, which overwhelms users. As a result, the design fails to appeal to corporate or upscale event clients.
 
@@ -38,9 +50,13 @@ The site violates **Aesthetic and Minimalist Design** due to excessive clutter. 
 
 ### Website Design
 
+![Improved Layout Example](img-assignment02/improved-layout.png)
+
 A consistent visual structure should be established using grids, spacing, and alignment. The layout should be modern, clean, and responsive across devices. Images must scale properly without appearing cropped or stretched. Visual clutter should be reduced, and a strong visual hierarchy should be created using headings, spacing, and color contrast.
 
 ### Navigation Changes
+
+![Improved Navigation](img-assignment02/navigation-improved.png)
 
 The vertical dropdown menu should be replaced with a horizontal navigation bar. Key links such as **Home**, **Shop**, **Cart**, and **Contact** should remain visible at all times on desktop. Menu labels should align with user expectations, and navigation placement should be consistent across all pages.
 
@@ -49,6 +65,8 @@ These changes improve user confidence and reduce confusion, supporting **Consist
 
 ### Tasteful Animation
 
+![Hover Effect Example](img-assignment02/hover-effect.png)
+
 Subtle hover effects should be added to buttons and links. Smooth transitions can be used to guide user attention, such as when items are added to the cart. Excessive or distracting animations should be avoided.
 
 **Norman Principle – Tasteful Animation:**  
@@ -56,9 +74,13 @@ Animations enhance feedback and user awareness without overwhelming the user.
 
 ### Header
 
+![Header Redesign](img-assignment02/header-improved.png)
+
 Unnecessary information such as USA tariffs, dates, and redundant links should be removed. Repeated logo banners should be eliminated. Header imagery should be modernized to reflect a premium cupcake brand, and the layout should clearly communicate the site’s purpose.
 
 ### Footer
+
+![Footer Layout](img-assignment02/footer-improved.png)
 
 Footer hover states should be consistent, with improved alignment, spacing, and padding. Menus and social icons should be clearly organized to make content easier to scan.
 
@@ -68,12 +90,16 @@ The website should be rebranded to better reflect a niche gourmet market. The de
 
 ### Shop / Cart
 
+![Cart UI Example](img-assignment02/cart-improved.png)
+
 The cart should be accessible at all times through a persistent cart icon. Clear feedback should be provided when items are added or removed. The checkout flow should be simplified to reduce friction.
 
 **Norman Principle View - Shop / Cart:**  
 Improved checkout supports **User Control and Freedom**, helping users feel confident and informed.
 
 ### Catalogue Improvements
+
+![Product Grid Example](img-assignment02/product-grid.png)
 
 Product images should maintain consistent aspect ratios. Padding and spacing across product cards should be uniform. Products should be organized into clearly defined sections using column-based layouts for easier scanning. Key information such as price and flavors should be highlighted.
 
@@ -91,21 +117,31 @@ Based on Norman’s usability principles, the Toronto Cupcake website suffers fr
 
 ### Visibility and Information
 
+![Missing Info Example](img-assignment02/missing-info.png)
+
 Important information such as product descriptions, delivery options, and customization details is often missing or hidden. Product images do not consistently communicate quality or detail.
 
 ### Navigation and Functionality
+
+![Navigation Flow Issue](img-assignment02/navigation-flow.png)
 
 Navigation structure is unclear and inconsistent. Some features appear unfinished or lack visual clarity. The ordering process is not streamlined, and limited customization options reduce flexibility for users.
 
 ### Design and Layout
 
+![Poor Layout Example](img-assignment02/layout-problem.png)
+
 Poor typography and text-heavy layouts reduce readability. Weak visual hierarchy makes it difficult to locate important information.
 
 ### Error Handling and User Control
 
+![Error Message Example](img-assignment02/error-feedback.png)
+
 The lack of clear error messages during checkout increases user frustration. Users are not given enough feedback when actions are taken.
 
 ### Trust and Credibility
+
+![Trust Issue Example](img-assignment02/trust-issue.png)
 
 Missing or unclear information reduces trust. An unpolished design makes the site feel unreliable.
 
