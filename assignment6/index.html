@@ -1,0 +1,941 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../assignment5/">
+      
+      
+        <link rel="next" href="../assignment7/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Low-Fidelity Prototypes - My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i%7CRed+Hat+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Merriweather Sans";--md-code-font:"Red Hat Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#low-fidelity-wireframes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Low-Fidelity Prototypes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="deep-purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="deep-orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Content Tabs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignment1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview of Project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignment2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Heuristic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignment3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Stories
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignment4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UX Problem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignment5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wireframes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Low-Fidelity Prototypes
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Low-Fidelity Prototypes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#homepage-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Homepage Layout
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#track-order-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Track Order Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cupcakes-catalogue-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cupcakes Catalogue Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-details-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Product Details Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#allergens-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Allergens Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cart-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cart Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checkout-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checkout Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#order-confirmation-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Order Confirmation Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary-of-design-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary of Design Improvements
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignment7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    High-Fidelity Prototypes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignment8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Usability Testing & Findings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignment9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colour and Typography – Toronto Cupcake
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#homepage-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Homepage Layout
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#track-order-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Track Order Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cupcakes-catalogue-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cupcakes Catalogue Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-details-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Product Details Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#allergens-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Allergens Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cart-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cart Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checkout-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checkout Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#order-confirmation-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Order Confirmation Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary-of-design-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary of Design Improvements
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="low-fidelity-wireframes">Low-Fidelity Wireframes 📒</h1>
+<p>The low-fidelity (LowFi) wireframes represent the early stage of the Toronto Cupcake website redesign. At this stage, the primary focus is on defining the layout, improving navigation, and organizing user flows in a clear and logical way. These wireframes do not include visual styling such as colors or fonts, but instead emphasize usability and structure. By focusing on functionality first, it becomes easier to identify potential usability issues and improve the overall user experience before moving into more detailed design stages.</p>
+<div class="admonition info">
+<p class="admonition-title">Purpose of LowFi Wireframes</p>
+<p>LowFi wireframes are used to quickly explore layout ideas and test how users interact with the system. They help designers focus on structure and usability without being distracted by visual details.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Design Limitation</p>
+<p>These wireframes do not include final visual elements such as branding, typography, or colors. Their purpose is to focus strictly on usability, layout, and content organization.</p>
+</div>
+<hr />
+<h2 id="homepage-layout">Homepage Layout</h2>
+<p><img alt="Homepage Wireframe" src="../img-assignment06/lowfi-homepage.png" /></p>
+<p>The homepage is designed to provide users with a clear and structured introduction to the website. It includes a top navigation bar, a hero banner, and a grid of featured cupcakes. The navigation bar contains key sections such as Home, Cupcakes, Order, Corporate, Events, Allergens, and Contact, allowing users to easily move between different parts of the site. The featured cupcakes are displayed in a grid layout, which supports quick scanning and helps users visually browse available products. A “View All” button is included to encourage users to explore more items in the catalogue.</p>
+<p>This layout improves the user experience by presenting information in a clean and organized way. Users can quickly understand where to go and what actions they can take, which creates a positive first impression and reduces confusion when entering the site.</p>
+<hr />
+<h2 id="track-order-page">Track Order Page</h2>
+<p><img alt="Track Order Wireframe" src="../img-assignment06/lowfi-track-order.png" /></p>
+<p>The track order page is designed to give users a simple and efficient way to check the status of their orders. Users are able to enter their order number into an input field and click a button to retrieve their order details. Once submitted, the system displays relevant information such as the order status and summary.</p>
+<p>This design helps reduce user frustration by providing a clear and direct method for tracking orders. Instead of navigating through multiple pages or contacting support, users can quickly access the information they need. This improves overall usability and increases user confidence in the system.</p>
+<hr />
+<h2 id="cupcakes-catalogue-page">Cupcakes Catalogue Page</h2>
+<p><img alt="Cupcakes Page" src="../img-assignment06/lowfi-cupcakes.png" /></p>
+<p>The cupcakes catalogue page organizes products based on box sizes and flavors, allowing users to browse items in a structured and meaningful way. Users can select from different quantities such as 6, 12, 24, or bulk orders, and each cupcake is displayed in a grid layout with pricing information clearly shown.</p>
+<p>This organization improves the browsing experience by making it easier for users to compare options and understand pricing at a glance. In the original website, product organization was unclear, which made it difficult for users to navigate. This redesigned layout addresses that issue by providing a clearer structure and improving readability.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Clear product organization is essential, as confusion at this stage can prevent users from continuing with the ordering process.</p>
+</div>
+<hr />
+<h2 id="product-details-page">Product Details Page</h2>
+<p><img alt="Product Details" src="../img-assignment06/lowfi-product.png" /></p>
+<p>The product details page provides users with more information about a selected cupcake. It includes a product image, a quantity selector, and an “Add to Order” button. In addition, allergen information is displayed clearly within the product description, helping users understand any potential dietary concerns.</p>
+<p>This page supports informed decision-making by presenting all necessary information in one place. Users can confidently select items knowing that important details, especially allergen information, are visible and accessible.</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>If allergen information is missing or unclear, it can create serious risks for users with dietary restrictions.</p>
+</div>
+<hr />
+<h2 id="allergens-page">Allergens Page</h2>
+<p><img alt="Allergens Page" src="../img-assignment06/lowfi-allergens.png" /></p>
+<p>The allergens page provides a centralized location for all allergy-related information. It includes details about gluten-free options as well as warnings about possible cross-contamination. This page is designed to be easy to access so users can quickly find important health-related information.</p>
+<p>Providing a dedicated allergens page improves transparency and builds trust with users. It ensures that users do not have to search through multiple pages to find critical information, which enhances both usability and safety.</p>
+<hr />
+<h2 id="cart-page">Cart Page</h2>
+<p><img alt="Cart Page" src="../img-assignment06/lowfi-cart.png" /></p>
+<p>The cart page allows users to review their selected items before completing their order. It displays product names, quantities, and pricing details, along with options to remove items if needed. The total price and deposit information are clearly shown, and a “Place Order” button guides users to the next step.</p>
+<p>This design helps users feel more in control of their purchase by clearly presenting all relevant information. It also reduces the likelihood of errors, as users can easily review and modify their selections before proceeding.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If cart details are unclear or difficult to edit, users may abandon their purchase before checkout.</p>
+</div>
+<hr />
+<h2 id="checkout-page">Checkout Page</h2>
+<p><img alt="Checkout Page" src="../img-assignment06/lowfi-checkout.png" /></p>
+<p>The checkout page is one of the most important parts of the user experience, as it is where users finalize their order. The page includes a form where users enter their name, email, and phone number, along with payment information. A “Pay Deposit” button clearly indicates the final action required to complete the purchase.</p>
+<p>This layout is designed to be simple and easy to follow, reducing cognitive load and helping users complete the process without confusion. A clear and straightforward checkout experience increases the likelihood of successful transactions.</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>A complicated or unclear checkout process can result in lost sales and user frustration.</p>
+</div>
+<hr />
+<h2 id="order-confirmation-page">Order Confirmation Page</h2>
+<p><img alt="Order Confirmation" src="../img-assignment06/lowfi-confirmation.png" /></p>
+<p>The order confirmation page provides feedback to users after they have successfully placed an order. It includes a confirmation message, an order tracking number, and a reminder that details will be sent via email.</p>
+<p>This page is important because it reassures users that their order has been completed successfully. It also provides clear next steps, such as tracking the order, which improves the overall user experience.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Clear confirmation messages help build trust and ensure users feel confident in their actions.</p>
+</div>
+<hr />
+<h2 id="summary-of-design-improvements">Summary of Design Improvements</h2>
+<p>The LowFi wireframes address several key usability issues found in the original website. By improving navigation, organizing products more clearly, simplifying the checkout process, and increasing the visibility of important information, the redesign creates a more user-friendly experience.</p>
+<p>Overall, these wireframes provide a strong foundation for the final design. They focus on making the website more efficient, intuitive, and trustworthy, which will lead to a better experience for users when interacting with the system.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
