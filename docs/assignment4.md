@@ -2,6 +2,8 @@
 
 ## UX Problem Statement
 
+![Homepage Issue](img-assignment04/homepage-problem.png)
+
 The primary issue with the Toronto Cupcake website is that it does not effectively appeal to its intended audiences, specifically **corporate event planners** and **casual event planners**. The current website suffers from poor information architecture, outdated visual design, inconsistent branding, and unintuitive navigation. These issues make it difficult for users to complete essential tasks such as browsing products, understanding delivery options, reviewing allergen information, and placing orders.
 
 From a Norman heuristic perspective, the website violates several key usability principles, including **Consistency and Standards**, **User Control and Freedom**, **Visibility of System Status**, and **Aesthetic and Minimalist Design**. As a result, users may feel confused, overwhelmed, or uncertain, which increases the likelihood that they will leave the site and choose a competitor with a more professional and user-friendly online presence.
@@ -11,7 +13,11 @@ The website should be redesigned as soon as possible to restore credibility, imp
 !!! info "Purpose of Problem Statement"
     A UX problem statement clearly defines the core usability issues and helps guide design decisions toward user-centered solutions.
 
+---
+
 ## The Five Ws
+
+![User Journey Example](img-assignment04/user-journey.png)
 
 **Who**  
 Corporate event planners and casual event planners organizing weddings, corporate meetings, and special events.
@@ -31,71 +37,119 @@ The website fails to appeal to its audiences due to poor design, unclear navigat
 !!! warning "Impact of Poor UX"
     Unclear navigation, cluttered content, and missing information can negatively affect user satisfaction, trust, and conversion rates.
 
+---
+
 ## Project Scope (Mapped to Norman Heuristics)
+
+![Wireframe Overview](img-assignment04/wireframe-overview.png)
 
 The scope of this redesign focuses on improving usability, clarity, and trust by aligning the website with Norman’s heuristic principles and modern UX standards.
 
+---
+
 ### Homepage Layout  
+
+![Homepage Redesign](img-assignment04/homepage-layout.png)
 
 **Relevant Norman Principles:** Aesthetic and Minimalist Design, Visibility of System Status  
 
 The homepage should immediately communicate the purpose of the website and who it is for. Unnecessary information, outdated notices, and redundant links should be removed to reduce cognitive overload. A strong splash image or branded visual should be added to reflect a premium cupcake brand and establish trust. Clear headings and calls to action will improve visibility and help users understand what actions they can take next.
 
-### Shop Catalogue Layout 
+---
+
+### Shop Catalogue Layout
+
+![Catalogue Layout](img-assignment04/catalogue-layout.png)
 
 **Relevant Norman Principles:** Consistency and Standards, Flexibility and Efficiency of Use  
 
 The catalogue should be reorganized to improve spacing, alignment, and scannability. Products should be grouped into clearly defined sections with consistent card layouts, image sizes, and typography. This consistency allows users to scan products quickly and compare options efficiently, especially when planning large or time-sensitive orders.
 
-### Cart Page Layout 
+---
+
+### Cart Page Layout
+
+![Cart Page](img-assignment04/cart-layout.png)
 
 **Relevant Norman Principles:** User Control and Freedom, Visibility of System Status  
 
 The cart should be accessible at all times through a persistent cart button. Users should receive clear feedback when items are added or removed. The layout should follow familiar e-commerce standards so users feel confident and in control throughout the checkout process.
 
+---
+
 ### Delivery Information Page  
+
+![Delivery Info](img-assignment04/delivery-layout.png)
 
 **Relevant Norman Principles:** Recognition Rather Than Recall, Visibility of System Status  
 
 A dedicated delivery information page should be created to clearly present order details, delivery and pickup options, delivery ranges, fees, and timelines. This information should be easy to find and written clearly so users do not need to search across multiple pages or remember previously seen details.
 
+---
+
 ### Navigation Menu Redesign  
+
+![Navigation Menu](img-assignment04/navigation-layout.png)
 
 **Relevant Norman Principles:** Consistency and Standards, User Control and Freedom  
 
 The navigation menu should be redesigned into a horizontal layout that follows modern web conventions. Unnecessary links should be removed, and labels should align with user expectations. Navigation placement must remain consistent across all pages so users always know where they are and how to move through the site.
 
+---
+
 ### Branding Redesign  
+
+![Branding Example](img-assignment04/branding.png)
 
 **Relevant Norman Principles:** Aesthetic and Minimalist Design, Credibility and Trust  
 
 The brand identity should be refreshed to reflect a professional, gourmet cupcake business. This includes updating the logo, color palette, typography, and imagery. A cohesive visual system improves trust and reassures users that the business is reliable, high-quality, and suitable for corporate and upscale events.
 
+---
+
 ### Corporate Events Page Layout  
+
+![Corporate Page](img-assignment04/corporate-layout.png)
 
 **Relevant Norman Principles:** Match Between System and Real World, Flexibility and Efficiency of Use  
 
 The corporate events page should be redesigned to directly address the needs of business clients. Information such as catering options, order minimums, timelines, and customization should be clearly presented using familiar language and layouts that match real-world expectations of corporate services.
 
+---
+
 ### About Page Layout  
+
+![About Page](img-assignment04/about-layout.png)
 
 **Relevant Norman Principles:** Aesthetic and Minimalist Design, Trust and Credibility  
 
 The About page should be simplified and structured to clearly communicate the brand’s story, values, and experience. Removing unnecessary text and improving layout will help users quickly understand the business without feeling overwhelmed.
 
+---
+
 ### Allergy Information Page  
+
+![Allergy Info](img-assignment04/allergy-layout.png)
 
 **Relevant Norman Principles:** Error Prevention, Recognition Rather Than Recall  
 
 A dedicated allergy information page should be added to provide clear and accessible dietary and allergen details. This page should be easy to access from both the shop and navigation menu, helping users make informed decisions and preventing ordering errors.
 
-### Contact Page Layout 
+---
+
+### Contact Page Layout
+
+![Contact Page](img-assignment04/contact-layout.png)
 
 **Relevant Norman Principles:** User Control and Freedom  
 
 The contact page should be cleaned up by removing redundant information and organizing content clearly. Users should be able to quickly find contact details and understand how to get support when needed.
 
+---
+
 ### FAQ Page Layout  
+
+![FAQ Page](img-assignment04/faq-layout.png)
 
 **Relevant Norman Principles:** Aesthetic and Minimalist Design, Visibility of System Status  
 

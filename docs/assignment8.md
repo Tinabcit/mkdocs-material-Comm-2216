@@ -1,4 +1,4 @@
-# Usability Testing & Findings
+# Usability Testing & Findings 👤
 
 ## Overview
 

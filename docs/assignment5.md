@@ -1,6 +1,8 @@
-# Wireframe and Design of the Website
+# Wireframe and Design of the Website 🎨
 
 ## Overview
+
+![Wireframe Overview](img-assignment05/wireframe-overview.png)
 
 This section describes the wireframe and design concepts used for the cupcake website. Although I am not currently enrolled in the ACIT 2811 UX/UI course, the wireframes for this project were created by my team members and peers, Anna and Ava. Their work helped guide the structure, layout, and user flow of the website.
 
@@ -11,11 +13,15 @@ This section describes the wireframe and design concepts used for the cupcake we
 
 ## Wireframe Description
 
+![Flowchart Overview](img-assignment05/flowchart-overview.png)
+
 The design includes three main flowcharts, each representing an important user process on the website. These diagrams focus on how users navigate the system, access information, and complete actions such as ordering and tracking.
 
 ---
 
 ### 1. Order Tracking Flow
+
+![Order Tracking Flow](img-assignment05/order-tracking.png)
 
 The first flowchart illustrates how a user tracks an order. The process begins when the user opens the menu and navigates to the **Orders** section. From there, the user receives an order code via email after placing an order. The user enters this code into the order tracker, and the server retrieves the corresponding order details. These details are then displayed on the page for the user to review.
 
@@ -26,6 +32,8 @@ The first flowchart illustrates how a user tracks an order. The process begins w
 
 ### 2. Allergy Information Flow
 
+![Allergy Flow](img-assignment05/allergy-flow.png)
+
 The second flowchart focuses on how users check allergy information. The user navigates to the **Cupcakes** section and selects a specific cupcake. Within the product description, allergy information is provided, along with clickable allergy icons. These icons direct the user to a main allergy information page where more detailed information is available.
 
 !!! warning
@@ -35,7 +43,11 @@ The second flowchart focuses on how users check allergy information. The user na
 
 ### 3. Bulk Ordering Flow
 
+![Bulk Order Flow](img-assignment05/bulk-order.png)
+
 The third and most detailed flowchart represents the bulk ordering process. In this flow, the user begins by selecting cupcakes and specifying the quantity for a bulk order. After submitting their selections, the user proceeds to checkout.
+
+![Checkout Flow](img-assignment05/checkout-flow.png)
 
 At this stage, the server verifies the order, and the user is prompted to enter payment and contact information. The user then pays a deposit, and the order is sent to the bakery for processing. Once completed, the user receives an order number via email, which can later be used to track the order status.
 
@@ -45,6 +57,8 @@ At this stage, the server verifies the order, and the user is prompted to enter 
 ---
 
 ## Summary
+
+![User Flow Summary](img-assignment05/user-flow-summary.png)
 
 Together, these wireframes represent the core user workflows of the website, including browsing products, checking allergy information, placing orders, and tracking purchases. They provide a clear foundation for designing a user-friendly interface and improving the overall user experience.
 
